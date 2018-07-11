@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/shootermv/pen/qyEjpy.
+You can see playin demo [here]: (https://shootermv.github.io/best-weather/index.html).
 
  
