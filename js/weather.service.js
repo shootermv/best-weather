@@ -25,7 +25,7 @@ function getPlaces(genderTemp) {
 
     function getPlacesComplete(response) {
         return response.data.list
-        .map(({name, main}) => ({name, humidity: main.humidity, temp: main.temp}))
+        .map(({name, main:{humidity}, main:{temp}}) => ({name, humidity, temp}))
         .sort((a, b) => getDiff(a) - getDiff(b));
     }
 
